@@ -1,0 +1,145 @@
+/* Mobile: Google Nexus 5 size*/
+@media screen and (max-width: 360px) {
+  body {
+    width: 100%;
+  }
+  
+  .header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header__logo {
+    width: 50px;
+  }
+  
+  .header__title h1 {
+    font-size: 2em;
+  }
+
+  .header__title p {
+    font-size: 1em;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .nav {
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .nav a {
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+  }
+
+/* When you mouse over the navigation links, change their color */
+  .nav a:hover {
+    color: #f1f1f1;
+}
+
+  .middle img {
+    height: auto;
+    margin-top: 9px;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .images {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .images img {
+    height: 75px;
+    padding: 0 10px 0 10px;
+  }
+}
+
+/* Tablet: Apple iPad size*/
+@media screen and (max-width: 768px) and (min-width: 361px) {
+  body {
+    width: 100%;
+  }
+  
+  .header {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__logo {
+    width: 80px;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .nav {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .nav a {
+    padding: 0 40px 0 40px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  .nav a:hover {
+    color: #f1f1f1;
+}
+
+  .middle img {
+    /*height: auto;*/
+    margin-top: 9px;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  section h2 {
+    margin-left: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .images {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .images img {
+    height: 75px;
+    padding: 0 20px 0 20px;
+  }
+}
